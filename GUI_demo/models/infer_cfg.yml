@@ -1,0 +1,23 @@
+mode: fluid
+draw_threshold: 0.5
+metric: MOT
+use_dynamic_shape: false
+arch: FairMOT
+min_subgraph_size: 3
+Preprocess:
+- target_size:
+  - 608
+  - 1088
+  type: LetterBoxResize
+- mean:
+  - 0
+  - 0
+  - 0
+  std:
+  - 1
+  - 1
+  - 1
+  type: NormalizeImage
+- type: Permute
+label_list:
+- person
