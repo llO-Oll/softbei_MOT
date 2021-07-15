@@ -1,3 +1,5 @@
+AIstudio项目地址：https://aistudio.baidu.com/aistudio/projectdetail/2072085
+
 ## 1 JDE追踪算法
 
 ### 1.1 简介
